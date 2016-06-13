@@ -1,0 +1,5 @@
+#apache config
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule ^ index.php [L]
+</IfModule>
